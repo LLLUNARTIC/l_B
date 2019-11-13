@@ -5,6 +5,7 @@ module.exports = {
     // 主题配置
     themeConfig: {
         // 顶部导航栏
+        base:'/l_B/',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'ES6', link: '/ES6/decoration' }
