@@ -1,14 +1,13 @@
 module.exports = {
 
-    title: 'Lu\'s',
+    title: 'l_B',
     description: '逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。',
     // 主题配置
     themeConfig: {
         // 顶部导航栏
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'ES6', link: '/ES6/decoration' },
-            { text: 'External', link: 'https://google.com' },
+            { text: 'ES6', link: '/ES6/decoration' }
         ],
         // 侧边栏
         sidebar: {
