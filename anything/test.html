@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VUEPRESS食用说明 | l_B</title>
+    <meta name="description" content="逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。">
+    
+    
+    <link rel="preload" href="/l_B/assets/css/0.styles.22437707.css" as="style"><link rel="preload" href="/l_B/assets/js/app.53841e47.js" as="script"><link rel="preload" href="/l_B/assets/js/2.73eb8b76.js" as="script"><link rel="preload" href="/l_B/assets/js/11.8f7cae66.js" as="script"><link rel="prefetch" href="/l_B/assets/js/10.020b1eab.js"><link rel="prefetch" href="/l_B/assets/js/12.2603a149.js"><link rel="prefetch" href="/l_B/assets/js/13.ed8607f2.js"><link rel="prefetch" href="/l_B/assets/js/14.e629dbf4.js"><link rel="prefetch" href="/l_B/assets/js/15.f7ab2f8a.js"><link rel="prefetch" href="/l_B/assets/js/16.67a16537.js"><link rel="prefetch" href="/l_B/assets/js/17.c9a51060.js"><link rel="prefetch" href="/l_B/assets/js/3.59916e42.js"><link rel="prefetch" href="/l_B/assets/js/4.83c067a6.js"><link rel="prefetch" href="/l_B/assets/js/5.d0763bb5.js"><link rel="prefetch" href="/l_B/assets/js/6.623f29b3.js"><link rel="prefetch" href="/l_B/assets/js/7.e82b6c5c.js"><link rel="prefetch" href="/l_B/assets/js/8.0299b81c.js"><link rel="prefetch" href="/l_B/assets/js/9.b2d0f5cc.js">
+    <link rel="stylesheet" href="/l_B/assets/css/0.styles.22437707.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/l_B/" class="home-link router-link-active"><!----> <span class="site-name">l_B</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/l_B/" class="nav-link">主页</a></div><div class="nav-item"><a href="/l_B/ES6/decoration.html" class="nav-link">ES6</a></div><div class="nav-item"><a href="/l_B/anything/vuepress.html" class="nav-link">大杂烩</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/l_B/" class="nav-link">主页</a></div><div class="nav-item"><a href="/l_B/ES6/decoration.html" class="nav-link">ES6</a></div><div class="nav-item"><a href="/l_B/anything/vuepress.html" class="nav-link">大杂烩</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>菜单</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/l_B/anything/vuepress.html" class="sidebar-link">VUEPRESS食用说明</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>ES6</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/l_B/anything/ES6/es6.html" class="sidebar-link">ES6</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>JAVASCRIPT</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/l_B/anything/JAVASCRIPT/cheapter1.html" class="sidebar-link">JAVASCRIPT</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vuepress食用说明"><a href="#vuepress食用说明" class="header-anchor">#</a> VUEPRESS食用说明</h1> <p>最初缘于在搭建公司官网时有搭建成熟的文档集的需求,在多方查阅之后对vuepress兴趣颇深,遂尝试了自己搭建一个demo,但官网的说明个人觉得有些零(wo)散(tai)细(cai)碎(le),故希望能够以自己的逻辑,把搭建的过程记录下来,便于其他同学查阅.</p> <h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <p>我们的目的是搭建一个可维护文档的项目,所以需要把VuePress安装为本地依赖,我们可以在一个基础的VUE-CLI模板项目中进行安装,也可以在空文件夹中进行项目初始化后安装.(VuePress的项目结构与一般的Vue项目结构不同,一般vue项目的相关文件不会被VuePress打包)</p> <p><code>npm install -D vuepress</code></p> <h2 id="框架搭建-相关配置"><a href="#框架搭建-相关配置" class="header-anchor">#</a> 框架搭建&amp;相关配置</h2> <h3 id="项目框架搭建"><a href="#项目框架搭建" class="header-anchor">#</a> 项目框架搭建</h3> <p>在完成VuePress的安装之后我们需要创建一个<strong>docs</strong>文件夹,这个文件夹便是VuePress项目的主体,主要包含了两部分,VuePressde的配置文件以及文档文件.</p> <p>同时我们需要在<strong>docs</strong>下创建一个<strong>vuepress</strong>文件夹放置具体的配置文件<strong>config.js</strong>.</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>.
+├─ docs
+│  ├─ README.md  // 默认主题配置
+│  └─ .vuepress  // 项目配置文件夹
+│  │   └─ config.js  //配置文件
+│  └─ .docmkdir1  //文档文件夹1
+│  └─ .docmkdir2  //文档文件夹2
+│  └─ ...         //文档文件夹n
+└─ package.json
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="配置文件创建"><a href="#配置文件创建" class="header-anchor">#</a> 配置文件创建</h3> <p>在基本配置文件中我们需要导出一个JS对象并先进行初始化设置.</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  title<span class="token punctuation">:</span> <span class="token string">'Hello VuePress'</span><span class="token punctuation">,</span>  <span class="token comment">//标题</span>
+  description<span class="token punctuation">:</span> <span class="token string">'Just playing around'</span>  <span class="token comment">//描述</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>同时我们在<strong>docs</strong>文件夹中创建<strong>README.MD</strong>来进行默认主题信息的配置.</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">home</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">heroImage</span><span class="token punctuation">:</span> /hero.png //你肯定没有这张图
+<span class="token key atrule">actionText</span><span class="token punctuation">:</span> 起步 →   //按钮
+<span class="token key atrule">actionLink</span><span class="token punctuation">:</span> /guide/  //按钮路由
+<span class="token key atrule">features</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> 简明优先
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> Vue 驱动
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> 性能高效
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
+<span class="token key atrule">footer</span><span class="token punctuation">:</span> MIT Licensed <span class="token punctuation">|</span> Copyright © 2018<span class="token punctuation">-</span>present Evan You
+<span class="token punctuation">---</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>把配置信息复制到<strong>README.MD</strong>中即可,相关资源和路由需要后来的设置.(菜鸡的我并不知道yaml,在复制的时候首行为空行导致设置没生效,找了半天设置问题 = =如果格式正确应该编译器会对其进行着色)</p> <h3 id="执行脚本添加"><a href="#执行脚本添加" class="header-anchor">#</a> 执行脚本添加</h3> <p>我们可以在<strong>package.json</strong>中设置VuePress的执行脚本:</p> <div class="language-json line-numbers-mode"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;docs:dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev docs&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;docs:build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>为了方便也可以这样</p> <div class="language-json line-numbers-mode"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev docs&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>如果使用的是VUE-CLI记得删除原有同名的执行脚本.</p> <p>接下来我们执行<code>npm run dev</code>就可以启动项目了</p> <h2 id="主题配置"><a href="#主题配置" class="header-anchor">#</a> 主题配置</h2> <h3 id="导航栏配置"><a href="#导航栏配置" class="header-anchor">#</a> 导航栏配置</h3> <p>顶部导航栏是一个以<strong>text</strong>(显示名称,任意编辑),<strong>link</strong>(文件路径)为元信息的对象数组,支持多层嵌套.我们需要在**.vuepress<strong>中的</strong>config.js<strong>中创建主题配置对象</strong>themeConfig**,同时创建导航栏对象数组<strong>nav</strong>,具体如下:</p> <ol><li><p>无下拉菜单</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Home'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Guide'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/guide/'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  <span class="token comment">//即/docs/guide</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'External'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'https://google.com'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  <span class="token comment">//支持域名链接</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div></li> <li><p>一级下拉菜单</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        text<span class="token punctuation">:</span> <span class="token string">'Languages'</span><span class="token punctuation">,</span>
+        items<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Chinese'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/language/chinese'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Japanese'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/language/japanese'</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div></li> <li><p>二级下拉菜单</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        text<span class="token punctuation">:</span> <span class="token string">'Languages'</span><span class="token punctuation">,</span>
+        items<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Group1'</span><span class="token punctuation">,</span> items<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/*  */</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Group2'</span><span class="token punctuation">,</span> items<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/*  */</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div></li></ol> <h3 id="侧边栏配置"><a href="#侧边栏配置" class="header-anchor">#</a> 侧边栏配置</h3> <p>侧边栏配置坑还是挺多的,因为其比较严格稍有不慎就会导致侧边栏消失,而且配置文件产生的侧边栏和导航栏并不会热刷新(做了变更没效果真的崩溃,后来发现没有热刷新!!!)加上官方文档这里确实不(shi)够(wo)详(tai)细(cai).</p> <p>官方举例了两种配置方式:</p> <ol><li><p>分组侧边栏</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    sidebar<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        title<span class="token punctuation">:</span> <span class="token string">'Group 1'</span><span class="token punctuation">,</span>  <span class="token comment">//标题</span>
+        collapsable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>  <span class="token comment">//是否可以折叠,false则直接展开</span>
+        children<span class="token punctuation">:</span> <span class="token punctuation">[</span>  <span class="token comment">//分组下所有页面</span>
+          <span class="token string">'/'</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        title<span class="token punctuation">:</span> <span class="token string">'Group 2'</span><span class="token punctuation">,</span>
+        children<span class="token punctuation">:</span> <span class="token punctuation">[</span> <span class="token comment">/* ... */</span> <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>我们可以看到这是一个由对象组成的数组,每个对象都是一个分组,元信息具体如注释所示.</p></li> <li><p>多个侧边栏</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">'/foo/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">''</span><span class="token punctuation">,</span>     <span class="token comment">/* /foo/ */</span>
+        <span class="token string">'one'</span><span class="token punctuation">,</span>  <span class="token comment">/* /foo/one.html */</span>
+        <span class="token string">'two'</span>   <span class="token comment">/* /foo/two.html */</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+      <span class="token string">'/bar/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">''</span><span class="token punctuation">,</span>      <span class="token comment">/* /bar/ */</span>
+        <span class="token string">'three'</span><span class="token punctuation">,</span> <span class="token comment">/* /bar/three.html */</span>
+        <span class="token string">'four'</span>   <span class="token comment">/* /bar/four.html */</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+      <span class="token comment">// 回退(fallback)侧边栏配置</span>
+      <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">''</span><span class="token punctuation">,</span>        <span class="token comment">/* / */</span>
+        <span class="token string">'contact'</span><span class="token punctuation">,</span> <span class="token comment">/* /contact.html */</span>
+        <span class="token string">'about'</span>    <span class="token comment">/* /about.html */</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>所谓多个侧边栏就是每个目录下文件都会单独渲染一个侧边栏.侧边栏对象里根据文件夹为不同文件夹内文件生成单独的侧边栏.文件夹路径是数组名,数组里是其他文件的路径.这个时候侧边栏会读取文件里的第一个标题作为侧边栏内显示的标题.</p></li></ol> <p>那么当我们想要生成多个分组的侧边栏要怎么办呢,根据著名的PPAP定理,I have a Single , I have a Group, ahh~ SingleGroup !!!我们只需要把构成分组的对象放进多个侧边栏里就好了,不明白也没关系,直接上代码:</p> <ol start="3"><li><p>多个分组侧边栏</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">'/doc1/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>  <span class="token comment">//为doc1生成单独的侧边栏</span>
+                <span class="token punctuation">{</span>
+                    title<span class="token punctuation">:</span> <span class="token string">'Group 1'</span><span class="token punctuation">,</span>  <span class="token comment">//doc1中的第一个分组</span>
+                    collapsable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>  <span class="token comment">//是否可以折叠,false则直接展开</span>
+                    children<span class="token punctuation">:</span> <span class="token punctuation">[</span>  <span class="token comment">//分组下所有页面</span>
+                        <span class="token string">'/group1/one'</span><span class="token punctuation">,</span>
+                        <span class="token string">'/group1/two'</span>
+                        <span class="token string">'/group1/thr'</span>
+                    <span class="token punctuation">]</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    title<span class="token punctuation">:</span> <span class="token string">'Group 2'</span><span class="token punctuation">,</span>  <span class="token comment">//doc1中的第二个分组</span>
+                    collapsable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>  <span class="token comment">//是否可以折叠,false则直接展开</span>
+                    children<span class="token punctuation">:</span> <span class="token punctuation">[</span>  <span class="token comment">//分组下所有页面</span>
+                        <span class="token string">'/group2/one'</span><span class="token punctuation">,</span>
+                        <span class="token string">'/group2/two'</span>
+                        <span class="token string">'/group2/thr'</span>
+                    <span class="token punctuation">]</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><p>于是我们可以得到仅显示doc1文件夹下文件,并对文件进行分组的侧边栏.</p> <div class="custom-block tip"><p class="custom-block-title">友情 ♂ 提示</p> <p>如果这个部分出现问题的话需要多尝试下官方提供的两个例子鼓捣一下,稍加思考就理清楚了
+这个部分缺失很容易让人疑惑,如果宁很容易就理解了只能说明宁牛掰!</p></div></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/l_B/assets/js/app.53841e47.js" defer></script><script src="/l_B/assets/js/2.73eb8b76.js" defer></script><script src="/l_B/assets/js/11.8f7cae66.js" defer></script>
+  </body>
+</html>
